@@ -1,8 +1,9 @@
-CREATE TABLE dados (
-    AlunoID int,
-    Nome varchar(50),
-    Sobrenome varchar(50),
-    Endereco varchar(150),
-    Cidade varchar(50),
-    Host varchar(50)
+CREATE TABLE Products (
+    ProductID int NOT NULL AUTO_INCREMENT,
+    Name varchar(50) NOT NULL,
+    Price DECIMAL(10,2) NOT NULL,
+    Brand varchar(50),
+    Category varchar(50),
+    Description varchar(250),
+	PRIMARY KEY (ProductID)
 );
